@@ -8,12 +8,10 @@
 
 header {
 	position: fixed;
-	top: 0;
-	right: 0;
-	left: 0;
-	height: 10%;
 	display: flex;
+	height: 10vh;
 	align-items: center;
+	width: 100%;
 }
 
 nav {
@@ -23,7 +21,7 @@ nav {
 	margin-right: 1%;
 }
 
-ul {
+nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -31,12 +29,12 @@ ul {
 	white-space: nowrap;
 }
 
-li {
+nav li {
 	display: inline;
 	margin-left: 10px;
 }
 
-li a{
+nav li a{
 	text-decoration: none;
 	cursor: pointer;
 	color: #ffffff;
@@ -46,7 +44,7 @@ li a{
 }
 
 nav a:hover {
-	color: #0075FF;
+	color: red;
 }
 
 .left-paragraph {
@@ -65,16 +63,23 @@ h1 {
 }
 
 .nom {
-	color: #0075FF;
+	text-decoration: none;
+}
+
+.nomC {
+	color: red;
+	text-decoration: none;
 }
 
 footer {
-	position: fixed;
-	bottom: 0;
+	position: relative;
+	bottom: 5%;
 	text-align: center;
 	width: 100%;
 }
 
-p {
-
+.null {
+	height: 10vh;
+	align-items: center;
+	width: 100%;
 }
