@@ -7,7 +7,7 @@
 }
 
 .nomC {
-	color: #c00000;
+	color: #001f5f;
 	text-decoration: none;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .section h1{
-	color : #c00000;
+	color : #001f5f;
 	margin: 5vh;
 }
 
@@ -34,20 +34,15 @@
 }
 
 .niveauUn {
-	color: #f0dcda;
+	color: #d3e1f4;
 	text-decoration: none;
 }
 
 .niveauDeux {
-	color: #ff9999;
-	text-decoration: none;
-}
-
-.niveauTrois {
-	color: #c00000;
+	color: #8eb4e2;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #c00000;
+	color: #001f5f;
 }

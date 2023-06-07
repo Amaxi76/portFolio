@@ -1,0 +1,53 @@
+header {
+	position: relative;
+	display: flex;
+	height: 10vh;
+	align-items: center;
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 1%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	white-space: nowrap;
+}
+
+nav li {
+	display: inline;
+	margin-left: 10px;
+}
+
+nav li a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 13px 32px;
+	transition: .5s;
+}
+
+.left-paragraph {
+	font-size: 20px;
+	margin-left: 2%;
+	margin-right: auto;
+	text-decoration: none;
+}
+.nom {
+	text-decoration: none;
+}
+
+footer {
+	position: relative;
+	bottom: 5%;
+	text-align: center;
+	width: 100%;
+}
