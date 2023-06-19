@@ -18,6 +18,8 @@
 	align-items: center;
 	justify-content: center;
 	width: 100%;
+	font-size: 19px;
+
 }
 
 .section h1{
@@ -25,12 +27,23 @@
 	margin: 5vh;
 }
 
-.sectionD {
+.ressources {
+	height: 90vh;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.ressources h1{
+	color : #ffc000;
+	margin: 5vh;
+	text-align: center;
+}
+
+.ressources svg{
+	margin: 2%;
 }
 
 .niveauUn {

@@ -18,19 +18,16 @@
 	align-items: center;
 	justify-content: center;
 	width: 100%;
+	font-size: 19px;
+}
+
+.section ul {
+	width: 50%;
 }
 
 .section h1{
 	color : #f79152;
 	margin: 5vh;
-}
-
-.sectionD {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-
 }
 
 .niveauUn {
