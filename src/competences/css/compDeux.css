@@ -1,0 +1,137 @@
+* {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	font-family: 'Geologica', sans-serif;
+	color: white;
+}
+
+.nomC {
+	color: #f79152;
+	text-decoration: none;
+}
+
+.section {
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	font-size: 19px;
+}
+
+.section ul {
+	width: 50%;
+}
+
+.section h1{
+	color : #f79152;
+	margin: 5vh;
+}
+
+.niveauUn {
+	color: #f0dcda;
+	text-decoration: none;
+}
+
+.niveauDeux {
+	color: #f8a674;
+	text-decoration: none;
+}
+
+.niveauTrois {
+	color: #f79152;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #f79152;
+}
+
+.carousel {
+	width: 80%; /* Largeur du carrousel */
+	margin: 0 auto; /* Centre horizontalement */
+	display: flex; /* Afficher les diapositives en ligne */
+	justify-content: center; /* Centrer les diapositives horizontalement */
+}
+
+.carousel a {
+	text-decoration: none;
+}
+
+.slide {
+	width: 33vh;
+	height: 20vh;
+	text-align: center;
+	transition: background-color 0.3s ease;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.slide a {
+	text-decoration: none;
+}
+
+
+.slide:hover {
+	background-color: #f79152;
+}
+
+.autre-div {
+	display: none;
+}
+
+.box:hover .autre-div {
+	display: block;
+  }
+
+.ap {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 2vh;
+	width: 90%;
+	height: 50vh;
+}
+
+.box {
+	border: 1px solid #f79152;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column; /* Ajout de cette ligne */
+	padding: 3vh;
+}
+
+.box img {
+	width: 30vh;
+	height: 30vh;
+	margin: 3vh;
+}
+
+figcaption {
+	color : white;
+}
+
+.ressources {
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.ressources h1 {
+	color: #f79152;
+	margin: 5vh;
+	text-align: center;
+}
+
+.ressources svg {
+	margin: 2%;
+}

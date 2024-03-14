@@ -1,0 +1,218 @@
+* {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	font-family: 'Geologica', sans-serif;
+	color: white;
+}
+
+.nomC {
+	color: #92d14f;
+	text-decoration: none;
+}
+
+.section {
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	font-size: 19px;
+}
+
+.section h1 {
+	color: #92d14f;
+	margin: 10vh;
+}
+
+.sectionD {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.niveauUn {
+	color: #ebf0df;
+	text-decoration: none;
+}
+
+.niveauDeux {
+	color: #b3de85;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #92d14f;
+}
+
+.ressources {
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.ressources h1 {
+	color: #92d14f;
+	margin: 5vh;
+	text-align: center;
+}
+
+.ressources svg {
+	margin: 2%;
+}
+
+/*-------------------*/
+/* LISTE DES PROJETS */
+/*-------------------*/
+
+.carousel {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.carousel a {
+	text-decoration: none;
+}
+
+.slide {
+	width: 40vh;
+	height: 20vh;
+	text-align: center;
+	transition: background-color 0.3s ease;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slide a {
+	text-decoration: none;
+}
+
+.slide:hover {
+	background-color: #92d14f;
+}
+
+/*------------------------*/
+/* Apprentissage Critique */
+/*------------------------*/
+
+.autre-div {
+	display: none;
+}
+
+.box:hover .autre-div {
+	display: block;
+}
+
+.ap {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	grid-gap: 2vh;
+	width: 90%;
+	height: 90vh;
+	overflow-y: auto;
+}
+
+.box {
+	border: 1px solid #92d14f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	padding: 3vh;
+}
+
+.box h2 {
+	margin-top: 5vh;
+	color:#92d14f
+}
+
+.box img {
+	margin: 3vh;
+}
+.autre-div {
+	display: none;
+}
+
+.box:hover .autre-div {
+	display: block;
+}
+
+.ap {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	grid-gap: 2vh;
+	width: 90%;
+	height: 90vh;
+	overflow-y: auto;
+}
+
+.box {
+	border: 1px solid #92d14f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	padding: 3vh;
+}
+
+.box h2 {
+	margin-top: 5vh;
+	color:#92d14f
+}
+
+.box img {
+	margin: 3vh;
+}
+.autre-div {
+	display: none;
+}
+
+.box:hover .autre-div {
+	display: block;
+}
+
+.ap {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	grid-gap: 2vh;
+	width: 90%;
+	height: 90vh;
+	overflow-y: auto;
+}
+
+.box {
+	border: 1px solid #92d14f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	padding: 3vh;
+}
+
+.box h2 {
+	margin-top: 5vh;
+	color:#92d14f
+}
+
+.box img {
+	margin: 3vh;
+}
+
+.ce {
+	width: 90%;
+}
+
