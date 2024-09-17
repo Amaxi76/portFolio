@@ -1,0 +1,130 @@
+* {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	font-family: 'Geologica', sans-serif;
+	color: white;
+}
+
+.nomC {
+	color: #ffc000;
+	text-decoration: none;
+}
+
+.section {
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	font-size: 19px;
+}
+
+.titre {
+	text-align: center;
+}
+
+.section h1{
+	color : #ffc000;
+	margin: 5vh;
+}
+
+.ressources {
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.ressources h1{
+	color : #ffc000;
+	margin: 5vh;
+	text-align: center;
+}
+
+.ressources svg{
+	margin: 2%;
+}
+
+.niveauUn {
+	color: #fff0bc;
+	text-decoration: none;
+}
+
+.niveauDeux {
+	color: #ffe068;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ffc000;
+}
+
+.slide {
+	width: 40vh;
+	height: 20vh;
+	text-align: center;
+	transition: background-color 0.3s ease;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 40vh;
+}
+
+.slide a {
+	text-decoration: none;
+}
+
+.slide:hover {
+	background-color: #ffc000;
+}
+
+.carousel {
+	width: 80%; /* Largeur du carrousel */
+	margin: 0 auto; /* Centre horizontalement */
+	display: flex; /* Afficher les diapositives en ligne */
+	justify-content: center; /* Centrer les diapositives horizontalement */
+}
+
+.carousel a {
+	text-decoration: none;
+}
+
+.autre-div {
+	display: none;
+}
+
+.box:hover .autre-div {
+	display: block;
+  }
+
+.ap {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 2vh;
+	width: 90%;
+	height: 90vh; /* Modifier la hauteur pour définir une hauteur fixe */
+	overflow-y: auto; /* Ajouter la propriété overflow-y pour permettre le défilement */
+}
+
+.box {
+	border: 1px solid #ffc000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column; /* Ajout de cette ligne */
+	padding: 3vh;
+}
+
+.box h2 {
+	margin : 5vh;
+}
+
+.box img {
+	margin: 3vh;
+}

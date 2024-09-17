@@ -1,0 +1,161 @@
+* {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	font-family: 'Geologica', sans-serif;
+	color: white;
+}
+
+.nomC {
+	color: #ff6f00;
+	text-decoration: none;
+}
+
+.section {
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	font-size: 19px;
+}
+
+.section h1 {
+	color: #ff6f00;
+	margin: 10vh;
+}
+
+.sectionD {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.niveauUn {
+	color: #ebf0df;
+	text-decoration: none;
+}
+
+.niveauDeux {
+	color: #b3de85;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ff6f00;
+}
+
+.ressources {
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.ressources h1 {
+	color: #ff6f00;
+	margin: 5vh;
+	text-align: center;
+}
+
+.ressources svg {
+	margin: 2%;
+}
+
+/*-------------------*/
+/* LISTE DES PROJETS */
+/*-------------------*/
+
+.carousel {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.carousel a {
+	text-decoration: none;
+}
+
+.slide {
+	width: 40vh;
+	height: 20vh;
+	text-align: center;
+	transition: background-color 0.3s ease;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1vh;
+}
+
+.slide a {
+	text-decoration: none;
+}
+
+.slide:hover {
+	background-color: #ff6f00;
+}
+
+.section p {
+	margin: 3vh;
+}
+
+.ce {
+	width: 90%;
+}
+
+.container {
+	padding: 2rem;
+}
+
+.slider-wrapper {
+	position: relative;
+	max-width: 48rem;
+	margin: 0 auto;
+}
+
+.slider {
+	display: flex;
+	aspect-ratio: 16 / 9;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+	border-radius: 0.5rem;
+	-ms-overflow-style: none; 
+	scrollbar-width: none; 
+
+}
+
+
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav a {
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
+}

@@ -1,11 +1,9 @@
 header {
-	position: sticky;
-	top: 0;
-	right: 0;
-	left: 0;
-	height: 10vh;
+	position: relative;
 	display: flex;
+	height: 10vh;
 	align-items: center;
+	width: 100%;
 }
 
 nav {
@@ -15,7 +13,7 @@ nav {
 	margin-right: 1%;
 }
 
-ul {
+nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -23,12 +21,12 @@ ul {
 	white-space: nowrap;
 }
 
-li {
+nav li {
 	display: inline;
 	margin-left: 10px;
 }
 
-li a{
+nav li a{
 	text-decoration: none;
 	cursor: pointer;
 	color: #ffffff;
@@ -37,19 +35,19 @@ li a{
 	transition: .5s;
 }
 
-nav a:hover {
-	color: #0075FF;
-}
-
 .left-paragraph {
 	font-size: 20px;
 	margin-left: 2%;
 	margin-right: auto;
 	text-decoration: none;
 }
+.nom {
+	text-decoration: none;
+}
 
-.null {
-	height: 10vh;
-	align-items: center;
+footer {
+	position: relative;
+	bottom: 5%;
+	text-align: center;
 	width: 100%;
 }
